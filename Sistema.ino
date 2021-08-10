@@ -63,8 +63,6 @@ void FTemperatura(){ //funçao da temperatura
     digitalWrite(ledAzul, LOW);
     digitalWrite(ledVerde, LOW);
     } else if(temperatura >= 10 && temperatura <= 28){
-        tone(Buzzer,392);// Liga o buzzer
-        delay(200); // Espera um tempo para Desativar
         noTone;//Desativa o buzzer
         digitalWrite(ledAzul, HIGH);
         digitalWrite(ledVermelho, LOW);
